@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+
+header{
+    position:fixed;
+    z-index:1;
+    background-color: darkgray;
+    wclassth:100%;
+    left:0px;
+    top:0px;
+}
+
+main{
+    position: absolute;
+    top: 115px;
+    left:0px;
+    right:0px;
+
+    background-color: black;
+}
+
+.image1{
+    padding: 100px 0px;
+}
+
+.triangle{
+    margin-right: 200px;
+}
+
+.cube{
+    margin-left:200px;
+}
+
+footer{
+    background-color:black;
+    wclassth:100%;
+    position:fixed;
+    bottom:0px;
+    z-index:2;
+}
+
+.triangle:hover, .cube:hover, .ball:hover {
+
+    filter: invert(1);
+
+}
+
+header p{
+    font-size: 30px;
+}
